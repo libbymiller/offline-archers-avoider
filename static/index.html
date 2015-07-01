@@ -12,12 +12,13 @@
     the player.
   -->
   <script src="/radiodan/client.js"></script>
-  <title>Radiodan Skeleton App</title>
+  <title>Offline Archers Avoider</title>
 </head>
 <body class="container">
   <div class="row two-thirds column">
-    <div class="explanation ">
-      <h1>Play some sounds</h1>
+    <div class="explanation">
+      <h1>Offline Archers Avoider</h1>
+      <p>This illustrates how an Archers Avoider would work, but for demo purposes uses local files (in /media/music).</p>
       <p>You can close or reload this page whilst playing and the sound will continue. You can also load the web page on a different computer or phone and remote control.</p>
     </div><!-- .explanation -->
 
@@ -26,23 +27,40 @@
     <button
       class="button-primary"
       onclick="playFromButton(this)"
-      data-url="http://downloads.bbc.co.uk/podcasts/6music/trintro/trintro_20150105-0300a.mp3">
-      Play a podcast stream
+      data-url="TheArchers.mp3">
+      The Archers
     </button>
 
     <button
       class="button-primary"
       onclick="playFromButton(this)"
-      data-url="crowd.mp3">
-      Play crowd
+      data-url="birdsong.mp3">
+      Avoid with birdsong
     </button>
+
+    <button
+      class="button-primary"
+      onclick="playFromButton(this)"
+      data-url="TimWestwood.mp3">
+      Avoid with Tim Westwood
+    </button>
+
 
     <button
       class="button stop"
       onclick="stop()">
       Stop
     </button>
+
+    <button
+      class="button stop"
+      onclick="pause()">
+      Pause
+    </button>
+
+
   </div><!-- .row -->
+
 
   <script src="/js/app.js"></script>
 </body><!-- .container -->

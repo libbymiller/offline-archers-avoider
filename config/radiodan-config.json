@@ -1,7 +1,9 @@
 {
-  "dataPath": "/tmp/.radiodan-skeleton",
+  "dataPath": "/tmp/.offline-archers-avoider",
   "defaults": {
-    "music": "../audio"
+    "music": "/media/music",
+    "outputFormat": "44100:16:1",
+    "player": "mpd"
   },
   "players": [
     {

@@ -1,12 +1,7 @@
-Radiodan Skeleton
+Offline Archers Avoider based on the Radiodan Skeleton
 ====
 
-A small skeleton application for getting started with Radiodan. It demonstrates:
-- minimal setup and configuration
-- how to control the player from the node app
-- how to control the player from a web application
-- playing a remote stream
-- playing a local file
+A small application that allows you to avoid the Archers via a physical button or a web page.
 
 ## Requirements
 
@@ -14,14 +9,5 @@ A small skeleton application for getting started with Radiodan. It demonstrates:
 - mpd
 - node.js
 
-## Installation
-
-    git clone https://github.com/radiodan/radiodan-skeleton.git
-    cd radiodan-skeleton
-    npm install
-
-## Running
-
-    npm start
 
 [1]: https://github.com/radiodan/broker
