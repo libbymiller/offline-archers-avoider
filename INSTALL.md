@@ -2,7 +2,7 @@
 
     diskutil list
     diskutil unmountDisk /dev/diskn
-    sudo dd bs=1m if=/Users/libbym/Downloads/2015-05-05-raspbian-wheezy.img of=/dev/rdiskn
+    sudo dd bs=1m if=~/Downloads/2015-05-05-raspbian-wheezy.img of=/dev/rdiskn
 
 ## Provison a radiodan
 
