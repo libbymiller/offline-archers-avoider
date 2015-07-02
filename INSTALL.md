@@ -38,6 +38,7 @@ and
      #echo "Starting wpa-cli-web"
      #/etc/init.d/wpa-cli-web start
 
+then
 
      sudo cp status511.html /opt/radiodan/static/status511.html
 
