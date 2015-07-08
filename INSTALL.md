@@ -6,6 +6,8 @@
 
 ## Provison a radiodan
 
+    git clone https://github.com/radiodan/provision
+    git checkout -b broker remotes/origin/broker
     sudo LOG_LEVEL=DEBUG ./provision all
 
 ## Checkout the offline Archers Avoider code
